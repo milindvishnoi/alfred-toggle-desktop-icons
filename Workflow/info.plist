@@ -6,6 +6,19 @@
 	<string>com.milindvishnoi.hide-desktop-icon</string>
 	<key>connections</key>
 	<dict>
+		<key>B77897B7-A251-413E-960A-20A4B34C3F31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA082C6E-E012-4BBB-924D-6D5F7C199CE3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DA082C6E-E012-4BBB-924D-6D5F7C199CE3</key>
 		<array>
 			<dict>
@@ -30,6 +43,35 @@
 	<string>Toggle Desktop Icons</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B77897B7-A251-413E-960A-20A4B34C3F31</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -85,19 +127,26 @@ fi; killall Finder</string>
 Using the bash we set the build desktop flag to False to hide the desktop. Then fillall finder command is used to restart finder and this time desktop is not loaded.</string>
 	<key>uidata</key>
 	<dict>
+		<key>B77897B7-A251-413E-960A-20A4B34C3F31</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
 		<key>DA082C6E-E012-4BBB-924D-6D5F7C199CE3</key>
 		<dict>
 			<key>xpos</key>
-			<real>110</real>
+			<real>210</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>185</real>
 		</dict>
 		<key>FB9E5684-CB82-41C7-994C-787DB3918789</key>
 		<dict>
 			<key>xpos</key>
-			<real>320</real>
+			<real>420</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>185</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -105,7 +154,7 @@ Using the bash we set the build desktop flag to False to hide the desktop. Then 
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/milindvishnoi/alfred-toggle-desktop-icons</string>
 </dict>
