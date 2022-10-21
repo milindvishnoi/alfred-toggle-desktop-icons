@@ -6,4 +6,9 @@ Hide/Show desktop icons
 
 # Usage
 
-Toggle to
+In Alfred, type `hide` and press enter to toggle between hiding and showing the desktop icon.
+
+<p align="center">
+  <img width="1200" height="auto" src="img/hide.png?raw=true">
+  <img width="1200" height="auto" src="img/hidden.png?raw=true">
+</p>
